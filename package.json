@@ -1,7 +1,11 @@
 {
   "name": "rainbow-notes",
+  "description": "One Safe Place for all your Notes.",
   "version": "1.0.0",
-  "description": "",
+  "engines": {
+    "node": "14.17.5"
+  },
+  
   "main": "index.js",
   "scripts": {
     "start": "nodemon backend/server.js",
@@ -21,5 +25,6 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.0.8",
     "nodemon": "^2.0.13"
+    
   }
 }
